@@ -1,0 +1,88 @@
+# Node modules directory
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Environment variables files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Testing output
+coverage/
+*.lcov
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.tgz
+*.zip
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Package-lock files
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Truffle specific
+*.pid
+*.seed
+*.cache
+*.db
+truffle-config.js
+
+# Ethereum build artifacts
+build/contracts/
+build/abis/
+
+# Truffle migrations
+migrations/*.json
+
+# Truffle artifacts
+build/contracts/*.json
+
+# Solidity coverage
+coverage/
+
+# Compiled Solidity files
+*.abi
+*.dbg
+*.sol
+
+
+# Specific to certain tools
+*.eslintrc.js
+*.eslintignore
+*.prettierignore
+*.prettierrc
