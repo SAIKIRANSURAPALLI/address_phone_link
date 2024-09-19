@@ -75,12 +75,6 @@ build/contracts/*.json
 # Solidity coverage
 coverage/
 
-# Compiled Solidity files
-*.abi
-*.dbg
-*.sol
-
-
 # Specific to certain tools
 *.eslintrc.js
 *.eslintignore
